@@ -87,7 +87,7 @@
             ]
         },
         {
-            "name": "riot",
+            "name": "schildichat",
             "buildsystem": "simple",
             "build-commands": [
                 "ar x schildichat-desktop_*.deb",
