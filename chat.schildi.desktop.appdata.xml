@@ -4,12 +4,12 @@
   <name>SchildiChat</name>
   <project_license>Apache-2.0</project_license>
   <developer_name>SchildiChat</developer_name>
-  <summary>A Matrix Client based on Element with a more traditional instant messaging experience</summary>
+  <summary>SchildiChat is a Matrix client based on Element with a more traditional instant messaging experience.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <url type="homepage">https://schildi.chat/</url>
   <description>
-    <p>SchildiChat-Desktop is a fork of Element.</p>
-    <p>The most important changes of SchildiChat-Desktop compared to Element are:</p>
+    <p>SchildiChat Web/Desktop is a fork of Element Web/Desktop.</p>
+    <p>The most important changes of SchildiChat compared to Element are:</p>
     <ul>
       <li>A unifed chat list for both direct and group chats</li>
       <li>Message bubbles</li>
