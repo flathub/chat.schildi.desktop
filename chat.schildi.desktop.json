@@ -107,9 +107,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.7.16/schildichat-desktop_1.7.16_amd64.deb",
-                    "sha256": "8e5454877b359d24d520a1cfa1ac3ca53a1462806e735d111124413901b84caa",
-                    "size": 70156708
+                    "url": "https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.7.17-sc1/schildichat-desktop_1.7.17-sc1_amd64.deb",
+                    "sha256": "5d88d4aa69b7b9be86d9ec8a723e82499f29d3a003e97bc92f12dd6b9f91d471",
+                    "size": 70175314
                 },
                 {
                     "type": "script",
