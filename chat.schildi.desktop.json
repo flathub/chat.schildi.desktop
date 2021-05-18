@@ -139,7 +139,7 @@
                     "type": "script",
                     "dest-filename": "schildichat-desktop.sh",
                     "commands": [
-                        "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
+                        "export TMPDIR=\"$XDG_RUNTIME_DIR/app/${FLATPAK_ID:-chat.schildi.desktop}\"",
                         "exec zypak-wrapper \"/app/SchildiChat/schildichat-desktop\" \"$@\""
                     ]
                 },
