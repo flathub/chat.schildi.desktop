@@ -108,7 +108,7 @@ modules:
       - chmod -R a-s,go+rX,go-w "/app/SchildiChat"
       - install schildichat-desktop.sh /app/bin/schildichat-desktop
       - install -Dm644 chat.schildi.desktop.desktop /app/share/applications/chat.schildi.desktop.desktop
-      - install -Dm644 chat.schildi.desktop.appdata.xml /app/share/appdata/chat.schildi.desktop.appdata.xml
+      - install -Dm644 chat.schildi.desktop.metainfo.xml /app/share/metainfo/chat.schildi.desktop.metainfo.xml
     sources:
       - type: file
         only-arches:
@@ -122,6 +122,6 @@ modules:
           - export TMPDIR="$XDG_RUNTIME_DIR/app/${FLATPAK_ID:-chat.schildi.desktop}"
           - exec zypak-wrapper "/app/SchildiChat/schildichat-desktop" "$@"
       - type: file
-        path: chat.schildi.desktop.appdata.xml
+        path: chat.schildi.desktop.metainfo.xml
       - type: file
         path: chat.schildi.desktop.desktop
