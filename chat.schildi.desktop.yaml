@@ -113,9 +113,9 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.7.24-sc1/schildichat-desktop_1.7.24-sc1_amd64.deb
-        sha256: 2d5f8dba0619863627322505b68b0d0b856e9b45b9c7c79ed653f99b2e387318
-        size: 79998738
+        url: https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.7.29-sc1/schildichat-desktop_1.7.29-sc1_amd64.deb
+        sha256: e6a85c33800638174309caad4ca8a8700d7495db5b70d519eedfc01b83b79887
+        size: 82144552
       - type: script
         dest-filename: schildichat-desktop.sh
         commands:
