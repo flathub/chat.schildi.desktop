@@ -28,6 +28,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.9.0-sc.1" date="2021-10-08"/>
     <release version="1.8.5-sc1" date="2021-09-21"/>
     <release version="1.8.4-sc1" date="2021-09-14"/>
     <release version="1.7.32-sc1" date="2021-07-09"/>
