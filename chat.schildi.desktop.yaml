@@ -102,8 +102,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.11.8-sc.1/schildichat-desktop_1.11.8-sc.1_amd64.deb #SC:url
-        sha256: 1e0514616086519edb8dd28d837c8db8011da73c0587b39552a76775f6ce398b #SC:sha256
+        url: https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.11.13-sc.1/schildichat-desktop_1.11.13-sc.1_amd64.deb #SC:url
+        sha256: 29dfc2c7de2c002cb0f0e73b92f12eeac126bfa92dbf45e0a18296431b8db456 #SC:sha256
       - type: file
         path: schildichat-desktop.sh
       - type: file
