@@ -24,7 +24,7 @@ finish-args:
   # As a chat application, networking is required
   - "--share=network"
   # Allows to send and receive files in the Downloads directory
-  - "--filesystem=xdg-downloads"
+  - "--filesystem=xdg-download"
   # Required for notifications in various desktop environments
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
