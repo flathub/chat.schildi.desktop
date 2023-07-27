@@ -10,8 +10,6 @@ rename-icon: schildichat-desktop
 copy-icon: true
 separate-locales: false
 finish-args:
-  # Version required to use the document-portal v4
-  - --require-version=1.7.0
   # Required due to being a GUI application
   - "--socket=x11"
   # Required to make sure x11 performance is achived on all platforms
@@ -25,22 +23,21 @@ finish-args:
   - "--device=all"
   # As a chat application, networking is required
   - "--share=network"
-  # Allows to send files from anywhere and receive files in the Downloads directory
-  # Required until Electron supports portals for load and safe dialogs
-  - "--filesystem=host"
+  # Allows to send and receive files in the Downloads directory
+  - "--filesystem=xdg-downloads"
   # Required for notifications in various desktop environments
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
-  # Required for tray icons on KDE
+  # Required for tray icons on KDE, no longer needed when updated to Element 1.11.36
   - --own-name=org.kde.*
   # Required to allow screensaver/idle inhibition such as during video calls
   - --talk-name=org.freedesktop.ScreenSaver
-  # Required for advanced input methods e.g. writing CJK languages
-  - "--talk-name=org.freedesktop.portal.Fcitx"
   # Required to store access tokens (persistent logins)
   - "--filesystem=xdg-run/keyring"
   # Required for experimental wayland support
   - "--filesystem=xdg-run/pipewire-0"
+  # For correct cursor scaling under Wayland
+  - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
 cleanup:
   - "/include"
   - "/lib/pkgconfig"
