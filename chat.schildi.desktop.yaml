@@ -29,7 +29,6 @@ finish-args:
   # Required until Electron supports portals for load and safe dialogs
   - "--filesystem=host"
   # Required for notifications in various desktop environments
-  - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
   # Required to allow screensaver/idle inhibition such as during video calls
   - --talk-name=org.freedesktop.ScreenSaver
