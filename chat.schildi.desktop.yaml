@@ -49,7 +49,6 @@ cleanup:
   - "/share/man"
   - "/man"
 modules:
-  - shared-modules/libsecret/libsecret.json
   - name: tcl
     subdir: unix
     build-options:
