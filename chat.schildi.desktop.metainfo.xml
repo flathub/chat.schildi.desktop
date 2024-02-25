@@ -7,6 +7,8 @@
   <summary>SchildiChat is a Matrix client based on Element with a more traditional instant messaging experience.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <url type="homepage">https://schildi.chat/</url>
+  <url type="translate">https://translate.schildi.chat/</url>
+  <url type="vcs-browser">https://github.com/SchildiChat/schildichat-desktop</url>
   <description>
     <p>SchildiChat Web/Desktop is a fork of Element Web/Desktop.</p>
     <p>The most important changes of SchildiChat compared to Element are:</p>
