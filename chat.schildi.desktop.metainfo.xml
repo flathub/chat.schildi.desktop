@@ -13,14 +13,15 @@
     <p>SchildiChat Web/Desktop is a fork of Element Web/Desktop.</p>
     <p>The most important changes of SchildiChat compared to Element are:</p>
     <ul>
-      <li>A unifed chat list for both direct and group chats</li>
+      <li>Customizable room list style (compact single line, intermediate and roomy with two line preview)</li>
+      <li>Option to show direct and group chats in a combined list</li>
+      <li>Improved theming options</li>
       <li>Message bubbles</li>
-      <li>Bigger items in the room list</li>
       <li>… and more!</li>
     </ul>
     <p>Preliminary Wayland support now available.</p>
     <p>To try running SchildiChat natively under Wayland, run:</p>
-    <p>flatpak run chat.schildi.desktop --enable-features=UseOzonePlatform --ozone-platform=wayland</p>
+    <p>flatpak run chat.schildi.desktop --enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland</p>
     <p>For GNOME, window decorations are currently missing and you'll have to use keyboard shortcuts instead to resize the window.</p>
   </description>
   <screenshots>
@@ -59,9 +60,6 @@
     <content_attribute id="social-audio">intense</content_attribute>
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
-  <provides>
-    <id>chat.schildi.desktop</id>
-  </provides>
   <update_contact>codeworks@supercable.onl</update_contact>
   <launchable type="desktop-id">chat.schildi.desktop.desktop</launchable>
 </component>
