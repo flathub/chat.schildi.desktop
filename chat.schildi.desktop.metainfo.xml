@@ -4,7 +4,7 @@
   <name>SchildiChat</name>
   <project_license>Apache-2.0</project_license>
   <developer_name>SchildiChat</developer_name>
-  <summary>SchildiChat is a Matrix client based on Element with a more traditional instant messaging experience.</summary>
+  <summary>SchildiChat is a feature-rich messenger for Matrix based on Element with some extras and tweaks</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <url type="homepage">https://schildi.chat/</url>
   <url type="translate">https://translate.schildi.chat/</url>
