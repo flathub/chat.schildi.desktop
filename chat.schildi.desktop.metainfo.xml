@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>chat.schildi.desktop.desktop</id>
+  <id>chat.schildi.desktop</id>
   <name>SchildiChat</name>
   <project_license>Apache-2.0</project_license>
   <developer_name>SchildiChat</developer_name>
@@ -63,4 +63,5 @@
     <id>chat.schildi.desktop</id>
   </provides>
   <update_contact>codeworks@supercable.onl</update_contact>
+  <launchable type="desktop-id">chat.schildi.desktop.desktop</launchable>
 </component>
