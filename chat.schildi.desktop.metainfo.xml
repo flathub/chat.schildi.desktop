@@ -24,7 +24,7 @@
     <p>For GNOME, window decorations are currently missing and you'll have to use keyboard shortcuts instead to resize the window.</p>
   </description>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <caption>SchildiChat logged-in frontend</caption>
       <image type="source">https://raw.githubusercontent.com/SchildiChat/schildichat-desktop/sc/screenshots/1.png</image>
     </screenshot>
